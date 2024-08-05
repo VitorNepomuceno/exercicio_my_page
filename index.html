@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICON -->
+    <title>Vitor Nepomuceno</title>
+</head>
+<body>
+    <header>
+        <div class="interface" id="home">
+
+            <div class="logo">
+                <img src="images/logo-run-white.png" alt="logotipo" height="100px">
+            </div><!--logo-->
+
+            <nav class="menu-cabecalho">
+                <ul>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#corridas">RUNNING</a></li>
+                    <li><a href="#strava1">STRAVA</a></li>
+                </ul>
+            </nav><!--menu-cabecalho-->
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div><!--interface-->
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>YOU DON'T NEED TO RUN FAST. <span>JUST RUN!</span></h1>
+                        <p>A corrida é muito mais do que apenas velocidade e desempenho. É sobre superar limites pessoais, desafiar-se e, acima de tudo, continuar em movimento. Para aqueles que estão começando, a ideia de correr pode parecer intimidadora.</p>
+
+                        <p>Lembre-se, a corrida não é apenas sobre a velocidade. É sobre perseverança, determinação e o simples ato de seguir em frente. Seja qual for o seu ritmo, o importante é continuar. Você não precisa correr rápido. Apenas corra!</p>
+
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="images/photo-background.png" alt="corredor">
+                    </div><!--img-topo-site-->   
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section><!--topo-do-site-->
+
+        <!-- INÍCIO SEÇÃO ABOUT ME -->
+
+        <section id="about" class="about-me">
+            <div class="interface">
+                <div class="flex"> <!--ESSA DIV É CRIADA PARA APLICAR DISPLAY FLEX A TODAS AS SEÇÕES E MANTER A FORMATAÇÃO DA SEÇÕES ALINHADAS-->
+                    <div class="img-sobre">
+                        <img class="img" src="images/tfrun.jpg" alt="runner">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                            <h2>MUITO PRAZER, <span>SOU VITOR NEPOMUCENO.</span></h2>
+                            <p>Tenho 31 anos e sou formado em Engenharia Elétrica. Minha formação se iniciou como eletrotécnico, área na qual ainda atuo até hoje. Minha carreira    começou com infraestrutura de sistemas, voltada para data centers, onde adquiri    vasta experiência em gerenciar e otimizar ambientes críticos de TI. </p>
+
+                            <p>Atualmente, estou em um emocionante processo de transição de carreira. Estou me dedicando aos estudos de programação, buscando me tornar um desenvolvedor full stack com especialização em Python. Estou cursando na Escola Britânica de Artes Criativas e Tecnologias (EBAC) e, neste momento, estou focado no módulo de front-end.</p>
+                            
+                            <p>Além da minha paixão pela tecnologia, sou um entusiasta de corrida de rua. Já participei de sete provas de 5 km e estou me preparando para novos desafios, incluindo corridas de 10 km. A corrida me ensinou valiosas lições sobre disciplina, persistência e a importância de manter um ritmo constante em direção aos meus objetivos.</p>
+                            
+                            <p>Estou animado com as oportunidades que o futuro reserva e comprometido em alcançar novas metas, tanto profissionais quanto pessoais.</p>
+
+                            <div class="socialmedia">
+                                <a href="https://www.instagram.com/vitor.npm/"><button><i class="bi bi-instagram"></i></button></a>
+                                <a href="https://github.com/VitorNepomuceno"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://www.strava.com/athletes/75220556"><button><i class="bi bi-strava"></i></button></a>
+                            </div>http://127.0.0.1:5500/#home
+
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+            
+        </section>
+
+        <!-- INÍCIO SEÇÃO RUNNING -->
+         
+        <h2 id="corridas" class="titulo">MINHAS <span>CONQUISTAS.</span></h2>
+        <section class="running">
+            <div class="interface">
+            <div class="container">
+                    <span class="slider" id="slider1"></span>
+                    <span class="slider" id="slider2"></span>
+                    <span class="slider" id="slider3"></span>
+                    <span class="slider" id="slider4"></span>
+                    <span class="slider" id="slider5"></span>
+                    <span class="slider" id="slider6"></span>
+                    <span class="slider" id="slider7"></span>
+
+                <div class="imgContainer">
+
+                <div class="slide_div" id="slide_1">
+                    <img src="images/1.jpg" alt="" class="img_1" id="img1">
+                    <a href="#slider1" class="button" id="button1"></a>
+                </div>
+                <div class="slide_div" id="slide_2">
+                    <img src="images/2.jpg" alt="" class="img_2" id="img2">
+                    <a href="#slider2" class="button" id="button2"></a>
+                </div>
+                <div class="slide_div" id="slide_3">
+                    <img src="images/3.jpg" alt="" class="img_3" id="img3">
+                    <a href="#slider3" class="button" id="button3"></a>
+                </div>
+                <div class="slide_div" id="slide_4">
+                    <img src="images/4.jpg" alt="" class="img_4" id="img4">
+                    <a href="#slider4" class="button" id="button4"></a>
+                </div>
+                <div class="slide_div" id="slide_5">
+                    <img src="images/5.jpg" alt="" class="img_5" id="img5">
+                    <a href="#slider5" class="button" id="button5"></a>
+                </div>
+                <div class="slide_div" id="slide_6">
+                    <img src="images/6.jpg" alt="" class="img_6" id="img6">
+                    <a href="#slider6" class="button" id="button6"></a>
+                </div>
+                <div class="slide_div" id="slide_7">
+                    <img src="images/7.jpg" alt="" class="img_7" id="img7">
+                    <a href="#slider7" class="button" id="button7"></a>
+                </div>
+                <div class="slide_div" id="slide_8">
+                    <img src="images/8.jpg" alt="" class="img_8" id="img8">
+                    <a href="#slider8" class="button" id="button8"></a>
+                </div>
+
+                </div><!--imgContainer-->
+            </div><!--container-->
+            </div><!--interface-->
+            <div class="btn-home"> <!--Botão home-->
+                <a href="#home">
+                    <button>Home</button>
+                </a>
+            </div><!--Botão home-->
+        </section><!--running-->
+
+        <!-- INÍCIO DA SEÇÃO STRAVA -->
+
+        <section id="strava1" class="strava">
+            <div class="interface">
+            <h2 class="titulo">ESTATÍSTICAS DO <SPAN>STRAVA</SPAN></h2>    
+                <div class="flex">
+                    <div class="resumo">
+                        <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/75220556/activity-summary/83c91964f8f11cc840c997dfed23e32366d6aaf0'></iframe>
+                    </div>
+                    <div class="prova">
+                        <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11773907797" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+                    </div>
+                    <div class="ativ">
+                        <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/75220556/latest-rides/83c91964f8f11cc840c997dfed23e32366d6aaf0'></iframe>
+                    </div>
+                
+                </div><!--flex-->
+            </div> <!--interface-->
+            
+        </section>
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <a href="#home"><img src="images/logo-run-white.png" alt="" height="60px"></a>
+                        </div><!--logo-footer-->
+                        <div class="socialmedia">
+                            <a href="https://www.instagram.com/vitor.npm/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/VitorNepomuceno"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.strava.com/athletes/75220556"><button><i class="bi bi-strava"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="line-footer"> 
+                        <p><i class="bi bi-envelope"></i><a href="mailto:vitornepomuceno1@hotmail.com"> contato@vitor.com.br</a></p>
+                    </div>
+                </div><!--line-footer-->
+            </div><!--interface-->
+        </footer>
+    </main>
+</body>
+</html>
